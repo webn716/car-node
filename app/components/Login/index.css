@@ -1,0 +1,80 @@
+.loginLogo{
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+}
+a.btn.login-btn.am-button {
+    margin: 0 20px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 45px;
+    margin-top: 30px;
+}
+ul.login-ways {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 60px 0;
+}
+
+.login-ways li {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 23px;
+}
+.login-ways li.item.wechat {
+    background:url(i/wechat.png) 0 0 no-repeat;
+    background-size: 100px 100px;
+}
+.login-ways li.item.qq {
+    background:url(i/qq.png) 0 0 no-repeat;
+    background-size: 100px 100px;
+}
+.login-ways li.item.sina {
+    background:url(i/sina.png) 0 0 no-repeat;
+    background-size: 100px 100px;
+}
+.login-ways li.item.alipay {
+    background:url(i/alipay.png) 0 0 no-repeat;
+    background-size: 100px 100px;
+}
+.else-login {
+    position: relative;
+    margin: 0 20px;
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    margin-top: 100px;
+}
+li.item.qq, li.item.sina {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.else-login span.tle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 220px;
+    height: 36px;
+    margin-top: -18px;
+    margin-left: -110px;
+    background-color: white;
+    z-index: 5;
+    text-align: center;
+}
+.reg-pwd-line {
+    padding: 10px 20px;
+    line-height: 60px;
+    color: #666;
+}
+
+.reg-pwd-line span.lf {
+    float: left;
+}
+
+.reg-pwd-line span.rt {
+    float: right;
+}

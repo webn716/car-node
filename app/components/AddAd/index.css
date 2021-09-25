@@ -1,0 +1,22 @@
+
+.addadWrap .title {
+    padding: 0 40px;
+    padding-top: 40px;
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.addadWrap .tip{
+    padding: 0 40px;
+    font-size: 22px;
+}
+.addadWrap .imgbox{
+    border: 1px solid #ccc;
+    border-radius:6px;
+    width: 750px;
+    height: 200px;
+}
+.addadWrap .submit{
+    margin: 0 20px;
+    margin-top: 120px;
+}

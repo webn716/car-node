@@ -1,0 +1,158 @@
+@media all and (max-device-width: 320px) {}
+
+
+/* process begin */
+
+.maintain-shop-line {
+    color: #108ee9;
+    margin: 30px 30px 16px;
+    font-size: 32px;
+}
+
+ul.maintain-items {
+    list-style: none;
+    padding-right: 40px;
+}
+
+.m-item span.lbl-txt {
+    float: left;
+}
+
+.m-item .lbl-num {
+    font-style: normal;
+    color: red;
+}
+
+.m-item .process-container {
+    margin-left: 258px;
+}
+
+.process-main {
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.process-container .process-sub {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5%;
+    height: 100%;
+    border-top-right-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+}
+
+.process-container.red .process-sub {
+    background-color: red;
+}
+
+.process-container.green .process-sub {
+    background-color: green;
+    width: 35%;
+}
+
+em.num-show {
+    font-style: normal;
+    color: red;
+    display: none;
+}
+
+li.m-item {
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+section.btn-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.btn-area a.btn.lt {
+    margin-right: 40px;
+    min-width: 206px;
+}
+
+.shopListFiter {
+    position: relative;
+}
+
+.shopListFiter select {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    text-indent: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.shopListFiter .icon {
+    position: absolute;
+    right: 20px;
+    top: 22px;
+}
+
+.car-detail {
+    margin: 16px 0;
+    background: #fff;
+    padding: 20px;
+}
+
+.car-detail .detailBox {
+    height: 80px;
+    line-height: 80px;
+    border-top: 1px solid #ccc;
+}
+
+.car-detail .detailBox .name {
+    flex: 0.5;
+    display: flex;
+}
+
+.car-detail .detailBox .input {
+    flex: 1.5;
+    display: flex;
+}
+
+.car-detail .detailBox .input input {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.am-list-content {
+    color: red;
+}
+
+.am-list-extra {
+    flex-basis: 100px!important;
+}
+
+.carImg[src=""] {
+    opacity: 0!important;
+}
+
+.addCarTip{
+    color: #333;
+    font-size: 32px;
+    text-align: center;
+}
+.addCar{
+    width: 300px;
+    margin: 0 auto;
+}
+/* process end */

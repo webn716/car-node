@@ -1,0 +1,138 @@
+section.btn-area {
+    padding: 0 20px;
+}
+
+section.btn-area a.mid {
+    margin: 0 3%;
+}
+
+section.btn-area a.lt,
+section.btn-area a.rt {
+    width: 22%;
+}
+
+section.btn-area a.mid {
+    width: 240px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    height: 80px;
+    line-height: 80px;
+}
+
+@media all and (max-device-width: 320px) {
+    section.btn-area {
+        padding: 0 8px;
+    }
+    section.btn-area a.mid {
+        margin: 0 2%;
+    }
+    section.btn-area a.lt,
+    section.btn-area a.rt {
+        width: 25%;
+    }
+    section.btn-area a.mid {
+        width: 46%;
+    }
+}
+
+section.self-chbox {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    overflow: hidden;
+}
+
+ul.chboxes {
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-left: 180px;
+    background-color: white;
+    overflow: hidden;
+    padding-top: 26px;
+}
+
+ul.chboxes li.item {
+    list-style: none;
+    float: left;
+    line-height: 42px;
+    margin: 20px;
+    min-width: 190px;
+}
+
+ul.chboxes li.item span.txt {
+    margin-right: 10px;
+}
+
+input.cbx {
+    width: 30px;
+    height: 30px;
+    margin-right: 14px;
+}
+
+input.underlne {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 360px;
+    font-size: inherit;
+}
+
+section.self-chbox span.lbl {
+    float: left;
+    height: 90px;
+    line-height: 90px;
+    color: #000;
+    font-size: 34px;
+}
+
+.mandatory-item:before {
+    content: '*';
+    color: red;
+    position: relative;
+    top: 5px;
+    right: 2px;
+}
+
+.photoBox {
+    height: 143px;
+    padding-left: 30px;
+    margin: 40px auto 10px;
+}
+
+.photoBox .imgBox {
+    width: 120px;
+    height: 120px;
+}
+
+.photoBox .photo {
+    float: left;
+    margin-left: 30px;
+}
+
+.avatar-uploader>.ant-upload {
+    width: 120px;
+    background: none;
+    margin: 0;
+    height: 120px;
+}
+
+.anticon-plus:before {
+    color: #ccc;
+    font-size: 58px;
+    margin-top: 7px;
+}
+
+.anticon-spin:before {
+    color: #ccc;
+    font-size: 58px;
+    margin-top: 7px;
+}
+
+.ant-upload-text {
+    display: none;
+}
+
+.imgBox[src=""] {
+    opacity: 0;
+}

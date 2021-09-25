@@ -1,0 +1,143 @@
+section.btn-area {
+    padding: 0 20px;
+    margin-top: 100px;
+}
+
+section.btn-area a.mid {
+    margin: 0 3%;
+}
+section.btn-area a.lt,section.btn-area a.rt {
+    width: 22%;
+}
+
+section.btn-area a.mid {
+    width: 50%;
+}
+@media all and (max-device-width: 320px) {
+  section.btn-area {
+      padding: 0 8px;
+  }
+
+  section.btn-area a.mid {
+      margin: 0 2%;
+  }
+  section.btn-area a.lt,section.btn-area a.rt {
+      width: 25%;
+  }
+
+  section.btn-area a.mid {
+      width: 46%;
+  }
+}
+ .setting-line {
+     position: relative;
+     background-color: white;
+ }
+
+ .setting-line .am-list-item.am-input-item {
+     width: 70%;
+ }
+
+ .setting-line span.txt {
+     position: absolute;
+     top: 0;
+     right: 30px;
+     /* height: 100%; */
+     vertical-align: middle;
+     background-color: red;
+     padding: 25px;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     color: white;
+ }
+ .car-item {
+     height: 120px;
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 0;
+ }
+
+ em.car-icon {
+     display: inline-block;
+     width: 60px;
+     height: 60px;
+     margin-right: 20px;
+     background: url('https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2935756859,2034280470&fm=58');
+     background-size: 60px 60px;
+ }
+
+ span.car-number {
+     font-size: 40px;
+ }
+
+ .cur-state {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 120px;
+     background-color: #ccc;
+     margin: 30px;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     margin-top: 0;
+ }
+.maintain-type-line {
+     width: 60%;
+     margin: 0 auto;
+}
+ .maintain-item {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 20px;
+     background-color: #ccc;
+     height: 80px;
+     font-size: 40px;
+     font-weight: bold;
+     border-radius: 16px;
+     -webkit-border-radius: 16px;
+ }
+
+ .cur-state span.distance {
+     font-size: 90px;
+     margin: 0 36px;
+     font-weight: bold;
+ }
+
+ .cur-state span.btn-update {
+     background-color: green;
+     color: white;
+     padding: 10px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px;
+ }
+ .icn-down-arrow {
+     display: inline-block;
+     width: 22px;
+     height: 12px;
+     position: relative;
+     top: -3px;
+     left: 12px;
+ }
+ .car-oil-info>div {
+     width: 50%;
+     float: left;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+ }
+
+ .car-oil-info {
+     overflow: hidden;
+ }
+
+ .car-oil-info>div:first-child {padding-right: 0;width: 40%;}
+
+ .car-oil-info>div:last-child {padding-left: 40px;width: 60%;}
+ .car-oil-info>div .am-input-label.am-input-label-5 {
+     width: 100px;
+ }
+ .oil-count.setting-line span.txt {
+     background-color: green;
+ }

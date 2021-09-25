@@ -1,0 +1,21 @@
+
+.shopListFiter {
+    position: relative;
+}
+
+.shopListFiter select {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    text-indent: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.shopListFiter .icon {
+    position: absolute;
+    right: 20px;
+    top: 22px;
+}
+

@@ -1,0 +1,56 @@
+
+.agree-area {
+    margin: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+a.btn.register-btn {
+    margin: 0 20px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.validate-line {
+    position: relative;
+}
+
+span.validate-code {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    margin-top: -32px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.validate-line .am-list-item.am-input-item {
+    width: 65%;
+}
+
+.am-list-item .am-input-label.am-input-label-5 {
+    width: 140px;
+}
+
+.validating {
+    color: #333;
+    background-color: black;
+}
+
+.am-checkbox-agree .am-checkbox-agree-label a {
+    color: #108ee9;
+    transition: color .3s ease;
+}
+
+.am-checkbox-agree {
+    margin-left: 0;
+}

@@ -1,0 +1,322 @@
+.my-carousel1 {
+    background: #fff;
+}
+
+.my-carousel1 a {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.my-carousel1 a img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.my-carousel1 .v-item {
+    height: 0.72rem;
+    line-height: 0.72rem;
+    padding-left: 0.2rem;
+}
+
+.my-carousel2 {
+    background: #fff;
+}
+
+.my-carousel2 a {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.my-carousel2 a img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.my-carousel2 .v-item {
+    height: 0.42rem;
+    line-height: 0.42rem;
+    padding-left: 0.2rem;
+}
+
+.sub-title {
+    color: #888;
+    font-size: .28rem;
+    padding: 30px 0 18px 0;
+}
+
+.am-wingblank.am-wingblank-lg {
+    margin: 0;
+}
+
+
+/* black board begin */
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.sub-flex-ave {
+    flex: 1;
+    -webit-flex: 1;
+}
+
+section.blackboard {
+    height: 180px;
+    background-color: gray;
+    padding: 20px 20px 10px 20px;
+}
+
+.circle {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: white;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.circle span {
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+}
+
+span.up-txt {
+    font-size: 28px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    line-height: 80px;
+}
+
+span.down-txt {
+    font-size: 28px;
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    line-height: 60px;
+}
+
+.lf-part.sub-flex-ave {
+    position: relative;
+    max-width: 160px;
+}
+
+span.district {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 28px;
+    color: red;
+    text-align: center;
+    display: inline-block;
+    width: 140px;
+}
+
+span.up-line {
+    display: inline-block;
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+
+.middle-part.sub-flex-ave {
+    font-size: 0;
+}
+
+.down-line {
+    position: relative;
+    height: 80px;
+}
+
+span.label {
+    font-size: 28px;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+}
+
+.rt-part.sub-flex-ave {
+    max-width: 120px;
+    position: relative;
+}
+
+span.distance {
+    font-size: 60px;
+    margin-left: 12px;
+    position: relative;
+    top: 0;
+}
+
+span.btn-update {
+    position: absolute;
+    right: 28px;
+    bottom: 8px;
+    font-size: 24px;
+    background-color: green;
+    color: white;
+    display: inline-block;
+    width: 66px;
+    height: 66px;
+    text-align: center;
+    padding: 6px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+@media all and (max-device-width: 320px) {
+    span.distance {
+        font-size: 46px;
+    }
+    span.btn-update {
+        right: 0;
+    }
+}
+
+.rt-part.sub-flex-ave .circle {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top: 7px;
+}
+
+span.up-color {
+    background-color: red;
+}
+
+span.down-color {
+    background-color: green;
+}
+
+span.health-value {
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    color: white;
+    z-index: 10;
+    display: inline-block;
+    font-size: 28px;
+}
+
+span.health {
+    font-size: 28px;
+    color: red;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* black board end */
+
+
+/* multible box begin */
+
+.am-grid {
+    border: 1px solid #ddd;
+}
+
+.sub-title {
+    color: #888;
+    font-size: .28rem;
+    padding: 30px 0 18px 0;
+}
+
+
+/* multible box end */
+
+section.activity-area {
+    height: 66px;
+    line-height: 66px;
+    padding-left: 25px;
+    color: red;
+    font-size: 36px;
+}
+
+.shopListFiter {
+    position: relative;
+}
+
+.shopListFiter select {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    text-indent: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.shopListFiter .icon {
+    position: absolute;
+    right: 20px;
+    top: 22px;
+}
+
+.car-detail {
+    margin: 16px 0;
+    background: #fff;
+    padding: 20px;
+}
+
+.car-detail .detailBox {
+    height: 80px;
+    line-height: 80px;
+    border-top: 1px solid #ccc;
+}
+
+.car-detail .detailBox .name {
+    flex: 0.5;
+    display: flex;
+}
+
+.car-detail .detailBox .input {
+    flex: 1.5;
+    display: flex;
+}
+
+.car-detail .detailBox .input input {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.am-list-content {
+    color: red;
+}
+
+.am-list-extra {
+    flex-basis: 100px!important;
+}
+
+.carImg[src=""] {
+    opacity: 0;
+}
+
+.slider-list img {
+    height: 150px!important;
+}
+
+.my-carousel1 .slider-list img {
+    height: 250px!important;
+}
+
+
+/* .slider-list {
+    min-height: 0!important;
+} */

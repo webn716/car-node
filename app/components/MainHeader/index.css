@@ -1,0 +1,128 @@
+ .car-item {
+     height: 120px;
+     background-color: #fff;
+     font-size: 0;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+ em.car-icon {
+     display: inline-block;
+     width: 60px;
+     height: 60px;
+     margin-right: 20px;
+ }
+
+ span.car-number {
+     font-size: 40px;
+ }
+
+ .cur-state {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 120px;
+     background-color: #eee;
+     margin: 30px;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     margin-top: 0;
+ }
+
+ .cur-state span.distance {
+     font-size: 90px;
+     margin: 0 36px;
+     font-weight: bold;
+ }
+
+ .cur-state span.btn-update {
+     background-color: #108ee9;
+     color: white;
+     padding: 10px;
+     border-radius: 12px;
+     -webkit-border-radius: 12px;
+ }
+ .icn-down-arrow {
+     display: inline-block;
+     width: 22px;
+     height: 12px;
+     position: relative;
+     top: -3px;
+     left: 12px;
+ }
+ ul.car-item-position {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    padding-left: 0;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+ }
+ ul.car-item-position li {
+     width: 100%;
+     padding-top: 30px;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .no-show { 
+    display: none; 
+    transition: 0.5s all ease-out;
+    -webkit-transition: 0.5s all ease-out;
+}
+
+
+ .shopListFiter {
+     position: relative;
+ }
+
+ .shopListFiter select {
+     width: 100%;
+     height: 80px;
+     line-height: 80px;
+     background: #fff;
+     text-indent: 10px;
+     border-radius: 4px;
+     border: none;
+ }
+
+ .shopListFiter .icon {
+     position: absolute;
+     right: 20px;
+     top: 22px;
+ }
+
+
+ .car-detail {
+     margin: 16px 0;
+     background: #fff;
+     padding: 20px;
+ }
+
+ .car-detail .detailBox {
+     height: 80px;
+     line-height: 80px;
+     border-top: 1px solid #ccc;
+ }
+
+ .car-detail .detailBox .name {
+     flex: 0.5;
+     display: flex;
+ }
+
+ .car-detail .detailBox .input {
+     flex: 1.5;
+     display: flex;
+ }
+
+ .car-detail .detailBox .input input {
+     border: none;
+     width: 100%;
+     height: 100%;
+ }

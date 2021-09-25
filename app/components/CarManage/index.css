@@ -1,0 +1,109 @@
+
+
+.first-line {
+    position: relative;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.first-line .add-car {
+    position: absolute;
+    right: 40px;
+}
+
+.first-line span.lt {
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    display: inline-block;
+}
+
+ul.car-list {
+    list-style: none;
+    margin: 0;
+    min-height: 750px;
+    padding: 0;
+    overflow: scroll;
+}
+
+li.car-line {
+    height: 80px;
+    line-height: 80px;
+    padding-left: 68px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 42px;
+}
+em.car-brand-logo {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    background: url(https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2935756859,2034280470&fm=58);
+    background-size: 60px 60px;
+    margin-left: 30px;
+}
+ section.btn-area {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 130px;
+ }
+
+ section.btn-area a.btn.lt {
+     margin-right: 40px;
+ }
+ section.btn-area a.btn.mid {
+     color: #000;
+     margin-right: 40px;
+     display: none;
+ }
+
+ section.btn-area a.btn {
+     padding: 0 30px;
+     font-size: 40px;
+     background-color: #ddd;
+     border: 1px solid #ccc;
+     border-radius: 20px;
+     -webkit-border-radius: 20px;
+ }
+ /* process end */
+
+
+.car-item{
+    padding: 0px 30px;
+    background: #fff;
+    margin-bottom: 16px;
+}
+
+.car-item .btnBox{
+    float: right;
+}
+.car-item .btnBox a{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+.car-item .position{
+    line-height: 100px; color: rgb(136, 136, 136); font-size: 36px; border-bottom: 2px solid rgb(246, 246, 246);
+}
+
+.car-item .content{
+    display: flex; padding: 30px 0px;
+}
+.car-item .content .logo{
+    height: 128px; margin-right: 30px;
+}
+.car-item .content .detail{
+    line-height: 1.5;
+}
+.car-item .content .title{
+    margin-bottom: 16px; font-weight: bold;
+}
+.car-item .content .num{
+    font-size: 43px; color: rgb(255, 110, 39);
+}

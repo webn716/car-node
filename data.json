@@ -1,0 +1,61 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name1": "typicode1","name2": "typicode2","name3": "typicode3"  },
+  "listData":[
+	  {
+	    "img": "http://cdn-img.easyicon.net/png/66/6600.gif",
+	    "title": "json北汽阎村4s服务管理中心",
+	    "des": "json京广联营汽车修配厂",
+	    "loc":"json卢沟桥",
+	    "task":"json维修保养",
+	    "distance":"json2km"
+	  },
+	  {
+	    "img": "http://cdn-img.easyicon.net/png/74/7417.gif",
+	    "title": "json京广联营汽车修配厂",
+	    "des": "json博智自行车修配厂第二汽车轮胎修理厂",
+	    "loc":"json良乡",
+	    "task":"json前窗贴膜",
+	    "distance":"json3.6km"
+	  },
+	  {
+	    "img": "http://cdn-img.easyicon.net/png/171/17169.gif",
+	    "title": "json京广联营汽车修配厂",
+	    "des": "json京广联营汽车修配厂",
+	    "loc":"json望京科技园",
+	    "task":"json补充机油",
+	    "distance":"json6.6km"
+	  }
+	],
+  "listData2":[
+	  {
+	    "img": "http://cdn-img.easyicon.net/png/66/6600.gif",
+	    "title": "222北汽阎村4s服务管理中心",
+	    "des": "222京广联营汽车修配厂",
+	    "loc":"222卢沟桥",
+	    "task":"222维修保养",
+	    "distance":"2222km"
+	  },
+	  {
+	    "img": "http://cdn-img.easyicon.net/png/74/7417.gif",
+	    "title": "222京广联营汽车修配厂",
+	    "des": "222博智自行车修配厂第二汽车轮胎修理厂",
+	    "loc":"222良乡",
+	    "task":"222前窗贴膜",
+	    "distance":"2223.6km"
+	  },
+	  {
+	    "img": "http://cdn-img.easyicon.net/png/171/17169.gif",
+	    "title": "222京广联营汽车修配厂",
+	    "des": "222京广联营汽车修配厂",
+	    "loc":"222望京科技园",
+	    "task":"222补充机油",
+	    "distance":"2226.6km"
+	  }
+	]
+}

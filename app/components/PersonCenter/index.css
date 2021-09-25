@@ -1,0 +1,177 @@
+.photo-area {
+    position: relative;
+    height: 240px;
+    background-color: #108ee9;
+}
+
+.photo {
+    position: absolute;
+    left: 88px;
+    bottom: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 1px solid #f8e5bd;
+}
+
+.personal-info {
+    position: absolute;
+    left: 236px;
+    bottom: 0;
+    width: 200px;
+    height: 120px;
+}
+
+.personal-info span,.personal-info a {
+    color: white;
+    display: inline-block;
+}
+
+.personal-info span.line-1 {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 15px 0;
+}
+
+.email-num {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    font-size: 58px;
+    color: #fff;
+}
+
+.email-num span.number {
+    position: absolute;
+    top: -6px;
+    right: -18px;
+    width: 40px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    font-size: 24px;
+}
+
+ul.nav-bar {
+    height: 140px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #a37736;
+}
+
+.nav-bar li.items {
+    float: left;
+    width: 33.33%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.nav-bar li.items em {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.nav-bar li.items em.icn-car {
+    background: url(i/my.car.icn.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.nav-bar li.items em.icn-star {
+    background: url(i/my.collection.icn.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.nav-bar li.items em.icn-friend {
+    background: url(i/my.friend.icn.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.nav-bar li.items span.txt {
+    display: inline-block;
+    color: white;
+}
+
+section.fun-area {
+    padding-left: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+}
+
+section.fun-area .eve-line {
+    height: 90px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    background: url(i/right.arrow.icn.png) 97% center no-repeat;
+    background-size: 20px 30px;
+    color: #000;
+}
+
+section.fun-area .eve-line:last-child {
+    border-bottom: none;
+}
+
+
+section.fun-area .eve-line span.txt-rt {
+    position: absolute;
+    right: 85px;
+    top: 30px;
+    color: #ccc;
+    font-size: 28px;
+}
+
+.avatar-uploader > .ant-upload {
+    width: 120px;
+    border: none;
+    background: none;
+    margin: 0;
+}
+.ant-upload.ant-upload-select-picture-card>.ant-upload{
+    padding: 0;
+}
+.avatar-uploader > .ant-upload img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.anticon-plus:before{
+    color: #fff;
+    font-size: 58px;
+    margin-top: 10px;
+}
+.anticon-spin:before{
+    color: #fff;
+    font-size: 58px;
+    margin-top: 10px;
+}
+.ant-upload-text{
+    display: none;
+}
+.goOut{
+    height: 90px;
+    color: #000;
+    text-align: center;
+    margin-top: 20px;
+    background: #fff;
+    line-height: 90px;
+    font-size: 34px;
+}

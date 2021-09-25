@@ -1,0 +1,23 @@
+#container {
+    height: 400px;
+    width: 100%;
+}
+
+.demoTitle:before,
+.demoTitle:after {
+    border-bottom: none;
+}
+
+.collection {
+    color: #e00505;
+    position: absolute;
+    right: 30px;
+    top: 28px;
+    width: 46px;
+    height: 46px;
+    font-size: 46px;
+}
+
+.am-card-header-content img {
+    width: 32px!important;
+}
